@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  text-transform: capitalize;
+
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+   overflow: hidden;
+}
+.img{
+  width: 20rem;
+  display: block;
+}
+
+@keyframes scroll{
+  from{
+    transform: translateY(-100vh);
+  }
+  to{
+    transform:translateY(-50vh) ;
+  }
+}
+
+.img-1{
+  height: 50%;
+  animation: scroll 8s infinite  linear;
+}
+.img-2{
+  height: 50%;
+  animation: scroll 8s infinite  linear;
+}
+.images{
+  display: flex;
+   flex-direction: column;
+  /* overflow: hidden; */
+}
+h1{
+  font-size: 6rem;
+}
