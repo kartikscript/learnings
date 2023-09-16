@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roll-The-Dice</title>
+  <link rel="stylesheet" href="dice.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="main-container">
+
+     <section class="container1 active">
+      <button class="btn btn-new">🔄new game</button>
+      <h2 class="player0" id="player-0">player 1</h2>
+      <img class="dice-img" src="dice1.png" alt="dice"/>
+      <p class="score0" id="score-0">0</p>
+
+      <div class="sub-container1">
+        <div><button class="btn btn-roll">🎲roll-dice</button></div>
+        <div><button class="btn btn-hold">❗hold</button></div>
+
+           <p class="current0">current</p>
+           <p class="current-score0" id="current-0">0</p>
+      </div>
+     </section>
+
+
+     <section class="container2">
+      <h2 class="player1"id="player-1" >player 2</h2>
+      <p class="score1" id="score-1">0</p>
+
+      <div class="sub-container2">
+           <p class="current1">current</p>
+           <p class="current-score1"id="current-1">0</p>
+      </div>
+     </section>
+
+</main>
+<script src="dice.js"></script>
+</body>
+</html>
